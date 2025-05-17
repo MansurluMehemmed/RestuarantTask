@@ -9,15 +9,15 @@ const Rating  = ({ rating, totalStars = 5 }) => {
       position: 'relative', 
       display: 'inline-block', 
       fontSize: '30px', 
-      color: '#ccc', /* boz ulduzlar */
+      color: '#ccc', 
       fontFamily: 'Arial, sans-serif',
       lineHeight: 1,
       userSelect: 'none'
     }}>
-      {/* Boz ulduzlar */}
+     
       {'★★★★★'}
       
-      {/* Sarı ulduzlar */}
+      
       <div style={{
         position: 'absolute',
         top: 0,
@@ -25,7 +25,7 @@ const Rating  = ({ rating, totalStars = 5 }) => {
         whiteSpace: 'nowrap',
         overflow: 'hidden',
         width: `${starPercentage}%`,
-        color: '#f5b301', /* sarı ulduzlar */
+        color: '#f5b301', 
       }}>
         {'★★★★★'}
       </div>
