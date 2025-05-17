@@ -1,0 +1,59 @@
+.card-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.card-grid {
+  display: grid;
+  cursor: pointer;
+  width: 80%;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+.title {
+  text-align: center;
+  color: #ffb347;
+  margin-bottom: 30px;
+}
+.card {
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 20px rgba(255, 179, 71, 0.6);
+}
+
+.card-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  text-decoration: none;
+  margin: 0 0 8px;
+  color: #ffb347;
+}
+
+.card-cuisine {
+  font-size: 0.95rem;
+  margin-bottom: 5px;
+  color: #ccc;
+}
+
+.card-rating {
+  font-size: 1rem;
+  color: #ffdd57;
+}
