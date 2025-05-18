@@ -360,7 +360,7 @@ const initialState = {
       id: 8,
       name: "Pizza King",
       imageUrl:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRm6FAP8vAYvS8r_G0nPT0jd2kTgT6G8wLMQ&s",
+        "https://popmenucloud.com/jvxpkilw/f0ca6226-7ca5-4f80-9696-9a349217021d.jpeg",
       rating: 4.4,
       cuisine: "İtalyan mətbəxi",
       location: "Bakı, Yasamal rayonu",
@@ -382,19 +382,19 @@ const initialState = {
         {
           name: "Margherita",
           price: "10 AZN",
-          imageUrl: "https://example.com/margherita.jpg",
+          imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Pizza_Margherita_stu_spivack.jpg/1200px-Pizza_Margherita_stu_spivack.jpg",
           description: "Ənənəvi pomidor və pendir pizza.",
         },
         {
           name: "Pepperoni",
           price: "12 AZN",
-          imageUrl: "https://example.com/pepperoni.jpg",
+          imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlN7PsgMT_mlNzx4__k-qX2-LY8HUw1QBsYQ&s",
           description: "Pepperoni kolbasası ilə zənginləşdirilmiş pizza.",
         },
         {
           name: "Vegetarian",
           price: "11 AZN",
-          imageUrl: "https://example.com/vegetarian.jpg",
+          imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYgA96sx_kc46A65x1pMH4pc6PJoLPZ3t8yw&s",
           description: "Tərəvəz və göbələk ilə dolu pizza.",
         },
       ],
