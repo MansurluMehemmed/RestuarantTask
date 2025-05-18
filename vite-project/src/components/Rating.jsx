@@ -6,6 +6,7 @@ const Rating  = ({ rating, totalStars = 5 }) => {
 
   return (
     <div style={{ 
+      cursor:'pointer',
       position: 'relative', 
       display: 'inline-block', 
       fontSize: '30px', 
