@@ -285,19 +285,19 @@ const initialState = {
         {
           name: "Ət dolması",
           price: "14 AZN",
-          imageUrl: "https://example.com/et_dolma.jpg",
+          imageUrl: "https://www.ardaninmutfagi.com/wp-content/uploads/2025/03/karisik-dolma-t.jpg",
           description: "Tərəvəz içərisinə doldurulmuş ət və düyü qarışığıdır.",
         },
         {
           name: "Badımcan dolması",
           price: "12 AZN",
-          imageUrl: "https://example.com/badimcan_dolma2.jpg",
+          imageUrl: "https://azcookbook.files.wordpress.com/2008/07/stuffed-eggplants-peppers-and-tomatoes3.jpg",
           description: "Dadlı və ətirli badımcanla hazırlanan dolma növüdür.",
         },
         {
           name: "Plov",
           price: "13 AZN",
-          imageUrl: "https://example.com/plov.jpg",
+          imageUrl: "https://www.exploreazerbaijan.com/medias/article/medium/22/dc905114365b229a7b36a02714596286.jpg",
           description: "Klassik Azərbaycan düyü yeməyidir.",
         },
       ],
@@ -333,20 +333,20 @@ const initialState = {
         {
           name: "California Roll",
           price: "20 AZN",
-          imageUrl: "https://imageproxy.wolt.com/assets/abcde12345",
+          imageUrl: "https://www.craftycookbook.com/wp-content/uploads/2024/03/tobiko-roll-1200.jpg",
           description:
             "Avokado, xiyar və yengeç ətindən hazırlanmış sushi növü.",
         },
         {
           name: "Ramen",
           price: "18 AZN",
-          imageUrl: "https://imageproxy.wolt.com/assets/xyz98765",
+          imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjsfbdRw8EqxfaGug82Eyojbk3wcyYLuF9Og&s",
           description: "Yapon şorbası, düyü və tərəvəzlərlə.",
         },
         {
           name: "Tempura",
           price: "15 AZN",
-          imageUrl: "https://imageproxy.wolt.com/assets/tempuraimage",
+          imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3pJ0Ni8CgbNXkw7noV0uTBCYX1rytp_KMMQ&s",
           description: "Qızardılmış tərəvəz və dəniz məhsulları.",
         },
       ],
