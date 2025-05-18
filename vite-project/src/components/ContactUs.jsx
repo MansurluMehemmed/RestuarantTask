@@ -1,10 +1,16 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useSelector } from 'react-redux'
 import { useNavigate } from 'react-router-dom'
 
 const ContactUs = () => {
     const contact = useSelector(state=>state.restaurants.cardPage)
     const navigate = useNavigate()
+     useEffect(() => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth',
+      });
+    }, []);
   return (
 <section className="bg-[#111] px-6 py-12 rounded-2xl shadow-xl max-w-4xl mx-auto my-10 text-white">
     <button onClick={() => navigate(-1)} className="w-[100px] cursor-pointer h-[40px] bg-[#ffb347] border border-white rounded">Əvvələ qayıt</button>

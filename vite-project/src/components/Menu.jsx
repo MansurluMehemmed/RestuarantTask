@@ -1,3 +1,4 @@
+import { useEffect } from "react"
 import { useSelector } from "react-redux"
 import { useNavigate } from "react-router-dom"
 
@@ -5,7 +6,12 @@ const Menu = () => {
     const menuItems = useSelector(state=>state.restaurants.menuItems)
     
     const navigate = useNavigate()
-    
+     useEffect(() => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth',
+      });
+    }, []);
   return (
     <div className="max-w-7xl mx-auto px-4 py-8">
       <button onClick={() => navigate(-1)} className="w-[100px] cursor-pointer h-[40px] bg-[#ffb347] border border-white rounded">Əvvələ qayıt</button>
