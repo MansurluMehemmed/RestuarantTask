@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./InsideCard.css";
 import Rating from "../Rating";
 import { useDispatch, useSelector } from "react-redux";
@@ -9,7 +9,12 @@ const InsideCard = () => {
   const data = useSelector((state) => state.restaurants.cardPage);
   const dispatch = useDispatch();
   const navigate = useNavigate();
-
+ useEffect(() => {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth',
+  });
+}, []);
   return (
     <div className="block mb-[100px]">
        <div className="flex w-[80%] justify-start ">
